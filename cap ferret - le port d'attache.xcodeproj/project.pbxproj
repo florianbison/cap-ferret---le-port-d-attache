@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		345D62BE163E7105003F9C3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D62BD163E7105003F9C3F /* UIKit.framework */; };
+		345D62C0163E7105003F9C3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D62BF163E7105003F9C3F /* Foundation.framework */; };
+		345D62C2163E7105003F9C3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D62C1163E7105003F9C3F /* CoreGraphics.framework */; };
+		345D62C8163E7105003F9C3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 345D62C6163E7105003F9C3F /* InfoPlist.strings */; };
+		345D62CA163E7105003F9C3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 345D62C9163E7105003F9C3F /* main.m */; };
+		345D62CE163E7105003F9C3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 345D62CD163E7105003F9C3F /* AppDelegate.m */; };
+		345D62D0163E7105003F9C3F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 345D62CF163E7105003F9C3F /* Default.png */; };
+		345D62D2163E7105003F9C3F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 345D62D1163E7105003F9C3F /* Default@2x.png */; };
+		345D62D4163E7105003F9C3F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 345D62D3163E7105003F9C3F /* Default-568h@2x.png */; };
+		345D62DC163E7105003F9C3F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D62DB163E7105003F9C3F /* SenTestingKit.framework */; };
+		345D62DD163E7105003F9C3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D62BD163E7105003F9C3F /* UIKit.framework */; };
+		345D62DE163E7105003F9C3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D62BF163E7105003F9C3F /* Foundation.framework */; };
+		345D62E6163E7105003F9C3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 345D62E4163E7105003F9C3F /* InfoPlist.strings */; };
+		345D62E9163E7105003F9C3F /* cap_ferret___le_port_d_attacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 345D62E8163E7105003F9C3F /* cap_ferret___le_port_d_attacheTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345D62DF163E7105003F9C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345D62B0163E7105003F9C3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345D62B8163E7105003F9C3F;
+			remoteInfo = "cap ferret - le port d'attache";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		345D62B9163E7105003F9C3F /* cap ferret - le port d'attache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cap ferret - le port d'attache.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345D62BD163E7105003F9C3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		345D62BF163E7105003F9C3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		345D62C1163E7105003F9C3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		345D62C5163E7105003F9C3F /* cap ferret - le port d'attache-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cap ferret - le port d'attache-Info.plist"; sourceTree = "<group>"; };
+		345D62C7163E7105003F9C3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		345D62C9163E7105003F9C3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		345D62CB163E7105003F9C3F /* cap ferret - le port d'attache-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cap ferret - le port d'attache-Prefix.pch"; sourceTree = "<group>"; };
+		345D62CC163E7105003F9C3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		345D62CD163E7105003F9C3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		345D62CF163E7105003F9C3F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		345D62D1163E7105003F9C3F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		345D62D3163E7105003F9C3F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		345D62DA163E7105003F9C3F /* cap ferret - le port d'attacheTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cap ferret - le port d'attacheTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345D62DB163E7105003F9C3F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		345D62E3163E7105003F9C3F /* cap ferret - le port d'attacheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cap ferret - le port d'attacheTests-Info.plist"; sourceTree = "<group>"; };
+		345D62E5163E7105003F9C3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		345D62E7163E7105003F9C3F /* cap_ferret___le_port_d_attacheTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cap_ferret___le_port_d_attacheTests.h"; sourceTree = "<group>"; };
+		345D62E8163E7105003F9C3F /* cap_ferret___le_port_d_attacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cap_ferret___le_port_d_attacheTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		345D62B6163E7105003F9C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345D62BE163E7105003F9C3F /* UIKit.framework in Frameworks */,
+				345D62C0163E7105003F9C3F /* Foundation.framework in Frameworks */,
+				345D62C2163E7105003F9C3F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345D62D6163E7105003F9C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345D62DC163E7105003F9C3F /* SenTestingKit.framework in Frameworks */,
+				345D62DD163E7105003F9C3F /* UIKit.framework in Frameworks */,
+				345D62DE163E7105003F9C3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345D62AE163E7105003F9C3F = {
+			isa = PBXGroup;
+			children = (
+				345D62C3163E7105003F9C3F /* cap ferret - le port d'attache */,
+				345D62E1163E7105003F9C3F /* cap ferret - le port d'attacheTests */,
+				345D62BC163E7105003F9C3F /* Frameworks */,
+				345D62BA163E7105003F9C3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		345D62BA163E7105003F9C3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				345D62B9163E7105003F9C3F /* cap ferret - le port d'attache.app */,
+				345D62DA163E7105003F9C3F /* cap ferret - le port d'attacheTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		345D62BC163E7105003F9C3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345D62BD163E7105003F9C3F /* UIKit.framework */,
+				345D62BF163E7105003F9C3F /* Foundation.framework */,
+				345D62C1163E7105003F9C3F /* CoreGraphics.framework */,
+				345D62DB163E7105003F9C3F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		345D62C3163E7105003F9C3F /* cap ferret - le port d'attache */ = {
+			isa = PBXGroup;
+			children = (
+				345D62CC163E7105003F9C3F /* AppDelegate.h */,
+				345D62CD163E7105003F9C3F /* AppDelegate.m */,
+				345D62C4163E7105003F9C3F /* Supporting Files */,
+			);
+			path = "cap ferret - le port d'attache";
+			sourceTree = "<group>";
+		};
+		345D62C4163E7105003F9C3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				345D62C5163E7105003F9C3F /* cap ferret - le port d'attache-Info.plist */,
+				345D62C6163E7105003F9C3F /* InfoPlist.strings */,
+				345D62C9163E7105003F9C3F /* main.m */,
+				345D62CB163E7105003F9C3F /* cap ferret - le port d'attache-Prefix.pch */,
+				345D62CF163E7105003F9C3F /* Default.png */,
+				345D62D1163E7105003F9C3F /* Default@2x.png */,
+				345D62D3163E7105003F9C3F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		345D62E1163E7105003F9C3F /* cap ferret - le port d'attacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				345D62E7163E7105003F9C3F /* cap_ferret___le_port_d_attacheTests.h */,
+				345D62E8163E7105003F9C3F /* cap_ferret___le_port_d_attacheTests.m */,
+				345D62E2163E7105003F9C3F /* Supporting Files */,
+			);
+			path = "cap ferret - le port d'attacheTests";
+			sourceTree = "<group>";
+		};
+		345D62E2163E7105003F9C3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				345D62E3163E7105003F9C3F /* cap ferret - le port d'attacheTests-Info.plist */,
+				345D62E4163E7105003F9C3F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		345D62B8163E7105003F9C3F /* cap ferret - le port d'attache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345D62EC163E7105003F9C3F /* Build configuration list for PBXNativeTarget "cap ferret - le port d'attache" */;
+			buildPhases = (
+				345D62B5163E7105003F9C3F /* Sources */,
+				345D62B6163E7105003F9C3F /* Frameworks */,
+				345D62B7163E7105003F9C3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cap ferret - le port d'attache";
+			productName = "cap ferret - le port d'attache";
+			productReference = 345D62B9163E7105003F9C3F /* cap ferret - le port d'attache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		345D62D9163E7105003F9C3F /* cap ferret - le port d'attacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345D62EF163E7105003F9C3F /* Build configuration list for PBXNativeTarget "cap ferret - le port d'attacheTests" */;
+			buildPhases = (
+				345D62D5163E7105003F9C3F /* Sources */,
+				345D62D6163E7105003F9C3F /* Frameworks */,
+				345D62D7163E7105003F9C3F /* Resources */,
+				345D62D8163E7105003F9C3F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345D62E0163E7105003F9C3F /* PBXTargetDependency */,
+			);
+			name = "cap ferret - le port d'attacheTests";
+			productName = "cap ferret - le port d'attacheTests";
+			productReference = 345D62DA163E7105003F9C3F /* cap ferret - le port d'attacheTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		345D62B0163E7105003F9C3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = salamandre;
+			};
+			buildConfigurationList = 345D62B3163E7105003F9C3F /* Build configuration list for PBXProject "cap ferret - le port d'attache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 345D62AE163E7105003F9C3F;
+			productRefGroup = 345D62BA163E7105003F9C3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				345D62B8163E7105003F9C3F /* cap ferret - le port d'attache */,
+				345D62D9163E7105003F9C3F /* cap ferret - le port d'attacheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		345D62B7163E7105003F9C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345D62C8163E7105003F9C3F /* InfoPlist.strings in Resources */,
+				345D62D0163E7105003F9C3F /* Default.png in Resources */,
+				345D62D2163E7105003F9C3F /* Default@2x.png in Resources */,
+				345D62D4163E7105003F9C3F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345D62D7163E7105003F9C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345D62E6163E7105003F9C3F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		345D62D8163E7105003F9C3F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		345D62B5163E7105003F9C3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345D62CA163E7105003F9C3F /* main.m in Sources */,
+				345D62CE163E7105003F9C3F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345D62D5163E7105003F9C3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345D62E9163E7105003F9C3F /* cap_ferret___le_port_d_attacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345D62E0163E7105003F9C3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345D62B8163E7105003F9C3F /* cap ferret - le port d'attache */;
+			targetProxy = 345D62DF163E7105003F9C3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		345D62C6163E7105003F9C3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345D62C7163E7105003F9C3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		345D62E4163E7105003F9C3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345D62E5163E7105003F9C3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		345D62EA163E7105003F9C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		345D62EB163E7105003F9C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		345D62ED163E7105003F9C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cap ferret - le port d'attache/cap ferret - le port d'attache-Prefix.pch";
+				INFOPLIST_FILE = "cap ferret - le port d'attache/cap ferret - le port d'attache-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		345D62EE163E7105003F9C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cap ferret - le port d'attache/cap ferret - le port d'attache-Prefix.pch";
+				INFOPLIST_FILE = "cap ferret - le port d'attache/cap ferret - le port d'attache-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		345D62F0163E7105003F9C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cap ferret - le port d'attache.app/cap ferret - le port d'attache";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cap ferret - le port d'attache/cap ferret - le port d'attache-Prefix.pch";
+				INFOPLIST_FILE = "cap ferret - le port d'attacheTests/cap ferret - le port d'attacheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		345D62F1163E7105003F9C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cap ferret - le port d'attache.app/cap ferret - le port d'attache";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cap ferret - le port d'attache/cap ferret - le port d'attache-Prefix.pch";
+				INFOPLIST_FILE = "cap ferret - le port d'attacheTests/cap ferret - le port d'attacheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		345D62B3163E7105003F9C3F /* Build configuration list for PBXProject "cap ferret - le port d'attache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345D62EA163E7105003F9C3F /* Debug */,
+				345D62EB163E7105003F9C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345D62EC163E7105003F9C3F /* Build configuration list for PBXNativeTarget "cap ferret - le port d'attache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345D62ED163E7105003F9C3F /* Debug */,
+				345D62EE163E7105003F9C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		345D62EF163E7105003F9C3F /* Build configuration list for PBXNativeTarget "cap ferret - le port d'attacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345D62F0163E7105003F9C3F /* Debug */,
+				345D62F1163E7105003F9C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 345D62B0163E7105003F9C3F /* Project object */;
+}
