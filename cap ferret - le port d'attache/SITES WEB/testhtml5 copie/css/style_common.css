@@ -1,0 +1,266 @@
+.view {
+   width: 800px;
+   height: 421px;
+   margin: 10px;
+   float: center;
+   border: 10px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: justify;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+
+}
+.view .mask,.view .content {
+   width: 800px;
+   height: 421px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view h2 {
+   font-family: 'Oswald', Arial, Helvetica, sans-serif;
+   text-shadow:0px 2px 2px rgba(15,51,59,0.5);
+   text-transform: uppercase;
+   text-align: center;
+   position: relative;
+   font-size: 3em;
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.8);
+   margin: 20px 0 0 0;
+}
+.view p {
+   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+   padding: 10px;
+   font-size: 1.34em;
+   font-weight:bold;
+   position:relative;
+   color: #657581;
+  
+   margin:10px 20px 10px 20px;
+   text-align: center justify;
+   
+}
+.view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   margin: 20px;
+   background: #5D737E;
+   color: #fff;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+.view a.info: hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;  
+}
+
+.view2 {
+   width: 800px;
+   height: 421px;
+   margin: 3em;
+   float: center;
+   border: 10px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center justify;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+   background: #fff url(img/bgimg.jpg) no-repeat center center;
+}
+.view2 .mask,.view .content {
+   width: 800px;
+   height: 421px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view2 img {
+   display: block;
+   position: relative;
+}
+.view2 h2 {
+   font-family: 'Oswald', Arial, Helvetica, sans-serif;
+   text-shadow:0px 2px 2px rgba(15,51,59,0.5);
+   text-transform: uppercase;
+   text-align: center;
+   position: relative;
+   font-size: 2.8em;
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.8);
+   margin: 5px 0 0 0;
+}
+.view2 p {
+   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+   font-size: 1.14em;
+   font-weight:bold;
+   position: relative;
+   color: #657581;
+   margin:10px 20px 10px 20px;
+   text-align: center justify;
+}
+.view2 a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #000;
+   color: #fff;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+.view2 a.info: hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;  
+}
+
+.view3 {
+   width: 800px;
+   height: 505px;
+   margin: 10px;
+   float: center;
+   border: 10px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: justify;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+
+}
+.view3 .mask,.view .content {
+   width: 800px;
+   height: 505px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view3 img {
+   display: block;
+   position: relative;
+}
+.view3 h2 {
+   font-family: 'Oswald', Arial, Helvetica, sans-serif;
+   text-shadow:0px 2px 2px rgba(15,51,59,0.5);
+   text-transform: uppercase;
+   text-align: center;
+   position: relative;
+   font-size: 2.6em;
+   padding: 4px;
+   background: rgba(0, 0, 0, 0.8);
+   margin: 20px 0 0 0;
+}
+.view3 p {
+   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+   padding: 2px;
+   font-size: 1.34em;
+   font-weight:bold;
+   position:relative;
+   color: #657581;
+  
+   margin:10px 20px 10px 20px;
+   text-align: center justify;
+   
+}
+.view3 a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   margin: 20px;
+   background: #5D737E;
+   color: #fff;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+.view3 a.info: hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;  
+}
+.view4 {
+   width: 800px;
+   height: 1200px;
+   margin: 10px;
+   float: center;
+   border: 10px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: justify;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+
+}
+.view4 .mask,.view .content {
+   width: 800px;
+   height: 1200px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view4 img {
+   display: block;
+   position: relative;
+}
+.view4 h2 {
+   font-family: 'Oswald', Arial, Helvetica, sans-serif;
+   text-shadow:0px 2px 2px rgba(15,51,59,0.5);
+   text-transform: uppercase;
+   text-align: center;
+   position: relative;
+   font-size: 2.6em;
+   padding: 4px;
+   background: rgba(0, 0, 0, 0.8);
+   margin: 20px 0 0 0;
+}
+.view4 p {
+   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+   padding: 2px;
+   font-size: 1.34em;
+   font-weight:bold;
+   position:relative;
+   color: #657581;
+  
+   margin:10px 20px 10px 20px;
+   text-align: center justify;
+   
+}
+.view4 a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   margin: 20px;
+   background: #5D737E;
+   color: #fff;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+.view4 a.info: hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;  
+}

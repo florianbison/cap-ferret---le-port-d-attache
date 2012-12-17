@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@interface AppDelegate : NSObject <UIApplicationDelegate>
+{
+    NSString *MENUPAGESTYLED;
+}
+@property NSString *MENUPAGESTYLED;
 @property (strong, nonatomic) UIWindow *window;
 
 @end

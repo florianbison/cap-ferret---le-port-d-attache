@@ -1,0 +1,70 @@
+@media all {
+.view {
+   width: 13%;
+   height: 100%;
+   margin: 2px;
+   float:center;
+   display:inline-block;
+   text-align: justify;
+   overflow: hidden;
+   position: relative;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+}
+.view .mask,.view .content {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view h2 {
+   font-family: 'Great Vibes', Arial, Helvetica, sans-serif;
+   text-shadow:0px 2px 2px rgba(15,51,59,0.5);
+   text-align: center center;
+   /*padding:50% 0% 50% 0%;*/
+   position: relative;
+   font-size: 2.7em;
+   background:none;
+
+
+   
+}
+.view p {
+   font-family: Georgia, serif;
+   font-style: italic;
+   font-size: 12px;
+   position: relative;
+   color: #fff;
+   padding: 10px 20px 20px;
+   text-align: center;
+}
+.view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #000;
+   color: #fff;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+.view a.info: hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;
+}
+}
+@media all and (max-width: 504px){
+	.view {
+   width: 40%;
+	}
+}
