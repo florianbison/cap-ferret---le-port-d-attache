@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="03J-Cz-BsG">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="gaa-ec-WzW">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="03J-Cz-BsG" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="V3e-X0-Yn1">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="6I3-bM-abF" kind="relationship" relationship="viewControllers" id="rqZ-FR-kLZ"/>
+                        <segue destination="TNv-jV-ASi" kind="relationship" relationship="viewControllers" id="RU2-UA-Ymm"/>
+                        <segue destination="kcB-95-Vi8" kind="relationship" relationship="viewControllers" id="OBa-aZ-Kgf"/>
+                        <segue destination="yq0-qp-T1V" kind="relationship" relationship="viewControllers" id="xb9-p8-qjJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Suq-Up-I94" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1430" y="-415"/>
+        </scene>
+        <!--First View Controller - bienvenue-->
+        <scene sceneID="Aiy-tM-6Dk">
+            <objects>
+                <viewController storyboardIdentifier="1" title="bienvenue" id="6I3-bM-abF" customClass="FirstViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2kG-7S-WSY">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="3WC-QQ-DQE">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <label autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="Le Port d'Attache" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fh5-lC-WmE">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="MDb-pC-ZJo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="35"/>
+                                <color key="textColor" red="0.27502972149999999" green="0.091671317569999994" blue="0.25240920960000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.43777598509999999" green="0.1664052697" blue="0.3086346982" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="3"/>
+                            </label>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="LlN-IL-eKG">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="273" id="mgo-6b-fC5"/>
+                                </constraints>
+                            </imageView>
+                            <textView autoresizesSubviews="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DU8-Oj-YHu">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="nhd-a3-zcw"/>
+                                </constraints>
+                                <string key="text">Une cuisine classique et simple, élaborée à partir d'une sélection des meilleurs produits locaux par le Chef Fabrice BUGAUD (une étoile au Michelin en 1995).</string>
+                                <color key="textColor" red="0.36047894019999999" green="0.1114502646" blue="0.30005298990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3WC-QQ-DQE" firstAttribute="top" secondItem="2kG-7S-WSY" secondAttribute="top" type="default" id="Bby-W9-0dm"/>
+                            <constraint firstItem="fh5-lC-WmE" firstAttribute="leading" secondItem="2kG-7S-WSY" secondAttribute="leading" type="default" id="Hwp-RA-njI"/>
+                            <constraint firstAttribute="trailing" secondItem="DU8-Oj-YHu" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="KGh-ap-F50"/>
+                            <constraint firstItem="fh5-lC-WmE" firstAttribute="top" secondItem="2kG-7S-WSY" secondAttribute="top" type="default" id="KUi-py-Mma"/>
+                            <constraint firstItem="fh5-lC-WmE" firstAttribute="trailing" secondItem="2kG-7S-WSY" secondAttribute="trailing" type="default" id="LGQ-Ui-pjW"/>
+                            <constraint firstItem="LlN-IL-eKG" firstAttribute="top" secondItem="2kG-7S-WSY" secondAttribute="top" constant="70" id="LtU-qj-J3b"/>
+                            <constraint firstItem="3WC-QQ-DQE" firstAttribute="leading" secondItem="2kG-7S-WSY" secondAttribute="leading" type="default" id="W4Z-lg-EF4"/>
+                            <constraint firstItem="3WC-QQ-DQE" firstAttribute="bottom" secondItem="2kG-7S-WSY" secondAttribute="bottom" type="default" id="deQ-gz-2ca"/>
+                            <constraint firstItem="DU8-Oj-YHu" firstAttribute="leading" secondItem="2kG-7S-WSY" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="jwr-jK-Ch2"/>
+                            <constraint firstItem="LlN-IL-eKG" firstAttribute="leading" secondItem="2kG-7S-WSY" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ljW-js-EdN"/>
+                            <constraint firstAttribute="bottom" secondItem="DU8-Oj-YHu" secondAttribute="bottom" constant="5" id="nMZ-Ew-nTy"/>
+                            <constraint firstAttribute="trailing" secondItem="LlN-IL-eKG" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="yEM-85-XVO"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="bienvenue" id="VA4-qO-I5Z"/>
+                    <connections>
+                        <outlet property="imageView" destination="LlN-IL-eKG" id="xJ5-tU-5KI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RtU-1p-ldZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1275" y="-1755"/>
+        </scene>
+        <!--Second View Controller - les menus-->
+        <scene sceneID="KHT-VJ-nvT">
+            <objects>
+                <viewController storyboardIdentifier="2" id="TNv-jV-ASi" customClass="SecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pel-S7-pJY">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tXl-1F-5gi">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tXl-1F-5gi" firstAttribute="trailing" secondItem="Pel-S7-pJY" secondAttribute="trailing" type="default" id="F9a-DC-aHE"/>
+                            <constraint firstItem="tXl-1F-5gi" firstAttribute="bottom" secondItem="Pel-S7-pJY" secondAttribute="bottom" type="default" id="UXY-kT-duZ"/>
+                            <constraint firstItem="tXl-1F-5gi" firstAttribute="leading" secondItem="Pel-S7-pJY" secondAttribute="leading" type="default" id="buR-ja-LN7"/>
+                            <constraint firstItem="tXl-1F-5gi" firstAttribute="top" secondItem="Pel-S7-pJY" secondAttribute="top" type="default" id="ijF-T0-Bas"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="les menus" id="Hho-iZ-jHp"/>
+                    <connections>
+                        <outlet property="menuweb" destination="tXl-1F-5gi" id="7Lq-1q-Pei"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xhE-vs-rOT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-291" y="-1765"/>
+        </scene>
+        <!--Third View Controller - la carte-->
+        <scene sceneID="uBq-Kr-wYa">
+            <objects>
+                <viewController storyboardIdentifier="3" id="kcB-95-Vi8" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZdQ-fr-eXe">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rqk-Jg-1EE">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rqk-Jg-1EE" firstAttribute="trailing" secondItem="ZdQ-fr-eXe" secondAttribute="trailing" type="default" id="I2N-Io-D0O"/>
+                            <constraint firstItem="Rqk-Jg-1EE" firstAttribute="bottom" secondItem="ZdQ-fr-eXe" secondAttribute="bottom" type="default" id="LS0-az-lci"/>
+                            <constraint firstItem="Rqk-Jg-1EE" firstAttribute="top" secondItem="ZdQ-fr-eXe" secondAttribute="top" type="default" id="gDI-cG-Ud1"/>
+                            <constraint firstItem="Rqk-Jg-1EE" firstAttribute="leading" secondItem="ZdQ-fr-eXe" secondAttribute="leading" type="default" id="pQx-BP-swg"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="la carte" id="uGK-yn-gNf"/>
+                    <connections>
+                        <outlet property="carteweb" destination="Rqk-Jg-1EE" id="KDU-am-tdj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Uo-rE-dqF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="233" y="-1765"/>
+        </scene>
+        <!--Fourth View Controller - nous trouver-->
+        <scene sceneID="kCP-Ox-FC1">
+            <objects>
+                <viewController storyboardIdentifier="4" id="yq0-qp-T1V" customClass="FourthViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cLI-SG-86n">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kYt-pj-9QO"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kYt-pj-9QO" firstAttribute="bottom" secondItem="cLI-SG-86n" secondAttribute="bottom" type="default" id="0gw-am-tWG"/>
+                            <constraint firstItem="kYt-pj-9QO" firstAttribute="trailing" secondItem="cLI-SG-86n" secondAttribute="trailing" type="default" id="7QG-LQ-3dW"/>
+                            <constraint firstItem="kYt-pj-9QO" firstAttribute="leading" secondItem="cLI-SG-86n" secondAttribute="leading" type="default" id="WEK-xe-VhD"/>
+                            <constraint firstItem="kYt-pj-9QO" firstAttribute="top" secondItem="cLI-SG-86n" secondAttribute="top" type="default" id="shI-1T-CGA"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="nous trouver" id="g93-SA-STD"/>
+                    <connections>
+                        <outlet property="mapView" destination="kYt-pj-9QO" id="7ck-vN-2vj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dxt-Z1-pC6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="729" y="-1765"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Default.png" width="320" height="480"/>
+    </resources>
+    <classes>
+        <class className="FirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="frontlabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="FourthViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FourthViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SecondViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="menuweb" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="ThirdViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="carteweb" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
